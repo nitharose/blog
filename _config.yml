@@ -1,4 +1,21 @@
-title: My Blog
+theme: "just-the-docs"
 
-minima:
-  theme: minima
+# Site settings
+title: "Nitharose's Technical Blog"
+description: "Technical insights, tutorials, and coding adventures"
+url: "https://nitharose.github.io/blog"
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Navigation
+header_links:
+  - label: "Home"
+    url: "/"
+  - label: "About"
+    url: "/about/"
+  - label: "Categories"
+    url: "/categories/"
